@@ -1,0 +1,206 @@
+.contact {
+    background: #10121A;
+    width: 100%;
+    padding: 86px;
+}
+
+.title__contact {
+    width: 100%;
+    height: 86px;
+    position: relative;
+}
+
+.original__contact {
+    position: absolute;
+    z-index: 3;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 0.7rem;
+    color: #FFF;
+
+}
+
+.shadov__contact {
+    position: absolute;
+    z-index: 1;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    padding-bottom: 0.7rem;
+    color: #151824;
+    margin: 30px 0px 0px 5px;
+}
+
+.original__contact::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #007bff;
+    bottom: 0;
+    left: 0;
+}
+
+.div__contact {
+    width: 100%;
+    margin: 90px 0px;
+    display: flex;
+    gap: 35px;
+}
+
+.email__contact {
+    width: 50%;
+    text-align: start;
+}
+
+.email__contact h1 {
+    color: #F1F1F1;
+    font-family: "Nunito", sans-serif;
+    margin: 20px 0px;
+
+}
+
+
+.input__box {
+    position: relative;
+    width: 80%;
+}
+
+.input__box input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #2e344e;
+    color: #A4ACC4;
+    outline: none;
+    font-size: 17px;
+    margin: 15px 0px 10px 0px;
+    background: transparent;
+}
+
+.text__area {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid #2e344e;
+    color: #A4ACC4;
+    outline: none;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    background: transparent;
+}
+
+.input__box span {
+    position: absolute;
+    left: 0;
+    padding: 30px 10px;
+    transition: .4s;
+    pointer-events: none;
+    color: #A4ACC4;
+    font-size: 17px;
+    padding: 2px 10px 15px 10px;
+    margin-left: 20px;
+    background: #10121A;
+    height: 5px;
+}
+
+.submit {
+    width: 202px;
+    height: 50px;
+    background: #007bff;
+    color: white;
+    font-size: 19px;
+    padding: 14px 34px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.phone__contact {
+    width: 47%;
+    text-align: start;
+    
+}
+
+.number__phone {
+    width: 100%;
+    height: 30%;
+    background: #191D2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.tell__icon {
+    width: 95px;
+    height: 95px;
+    padding: 26px;
+    margin: 0px 26px 0px 26px;
+    border: 1px solid #2e344e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num {
+    width: 250px;
+    height: 95px;
+    margin: 0px 26px 0px 0px;
+    flex: 1;
+    line-height: 30px;
+}
+
+.tell__icon svg {
+    font-size: 45px;
+    color: #b9c0d5;
+}
+
+.num h2 {
+    color: #cbd0e0;
+}
+
+.num p {
+    color: #b9c0d5;
+    font-size: 18px;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .div__contact {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .email__contact {
+        width: 100%;
+    }
+    .phone__contact{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

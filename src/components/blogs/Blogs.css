@@ -1,0 +1,158 @@
+.blog {
+    background: #10121A;
+    width: 100%;
+    padding: 86px;
+}
+
+.title__blog {
+    width: 100%;
+    height: 86px;
+    position: relative;
+}
+
+.original__blog {
+    position: absolute;
+    z-index: 3;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 0.7rem;
+    color: #FFF;
+
+}
+
+.shadov__blog {
+    position: absolute;
+    z-index: 1;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    padding-bottom: 0.7rem;
+    color: #151824;
+    margin: 30px 0px 0px 5px;
+}
+
+.original__blog::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #007bff;
+    bottom: 0;
+    left: 0;
+}
+.blog__box{
+    width: 100%;
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    
+}
+
+.cart__blog{
+    width: 100%;
+    padding: 18px;
+    background: #191D2B;
+}
+.over__img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.cart__img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.cart__blog p{
+    font-size: 32px;
+    color: #fff;
+    padding: 30px 0px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3 ease;
+}
+.cart__img:hover{
+    transform: rotate(5deg) scale(1.1);
+   
+    transition: 0.7s ease;
+    -webkit-transition: 0.7 ease;
+}
+.cart__blog p:hover{
+    color: #007bff;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4 ease;
+}
+
+@media screen and (max-width:1400px) {
+    .over__img{
+        width: 100%;
+        height: 70%;
+        overflow: hidden;
+    }
+
+}
+@media screen and (max-width:1000px) {
+    .over__img{
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+    }
+    .cart__blog p{
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width:770px) {
+    .over__img{
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+    }
+    .blog__box{
+        grid-template-columns: 1fr;
+        
+    }
+
+}
+@media screen and (max-width:600px) {
+    .over__img{
+        width: 100%;
+        height: 70%;
+        overflow: hidden;
+    }
+    .blog__box{
+        grid-template-columns: 1fr;
+        
+    }
+    .blog {
+        background: #10121A;
+        width: 100%;
+        padding: 6px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "Nunito";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;1,6..12,200&family=Poppins&family=Shalimar&display=swap');
+}
+
+@font-face {
+    font-family: "Nunito1";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;1,6..12,200&family=Nunito:wght@200&family=Poppins&family=Shalimar&display=swap');
+}
+
+.about {
+    background: #10121A;
+    width: 100%;
+    height: auto;
+    padding: 10px 86px 10px 86px;
+    overflow: auto;
+    position: sticky;
+
+}
+
+.title__about {
+    width: 100%;
+    height: 86px;
+    position: relative;
+    margin: 60px 0px;
+
+}
+
+/* textga soya berish */
+
+.original {
+    position: absolute;
+    z-index: 3;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 0.7rem;
+    color: #FFF;
+
+}
+
+.shadov {
+    position: absolute;
+    z-index: 1;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    padding-bottom: 0.7rem;
+    color: #151824;
+    margin: 30px 0px 0px 5px;
+}
+
+.original::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #007bff;
+    bottom: 0;
+    left: 0;
+}
+
+.about__data {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.img {
+    width: 49%;
+}
+.img__width{
+    width: 100%;
+
+}
+
+.data__type {
+    width: 49%;
+}
+
+.data__type__title {
+    color: #fff;
+    font-family: "Nunito1", sans-serif;
+    font-size: 32px;
+    margin: 5px 0px 0px 0px;
+}
+
+.data__type__title span {
+    color: #007bff;
+}
+
+.data__type p {
+    font-size: 18px;
+    color: #A4ACC4;
+    margin: 17px 0px;
+    text-align: start;
+}
+
+.balance {
+    display: flex;
+}
+
+.show__data {
+    width: 130px;
+}
+
+.download {
+    width: 236px;
+    height: 55px;
+    color: #fff;
+    background: #007bff;
+    font-size: 19px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    margin: 15px 0px;
+}
+
+.about__services {
+    width: 450px;
+    height: 289px;
+    padding: 21px;
+    transform: scale(0.9);
+    border: 1px solid #2e344e;
+    background: #191D2B;
+    box-shadow: 0px -7px 0px 0px #2e344e;
+}
+
+.about__services:hover {
+    box-shadow: 0px -7px 0px 0px #007bff;
+    transition: 0.8s;
+}
+
+.services__icon svg {
+    font-size: 80px;
+    color: #007bff;
+}
+
+.about__services h1 {
+    color: #fff;
+}
+
+.about__services h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #2e344e;
+    bottom: 90px;
+    left: 21px;
+    margin: 20px 0px 20px 0px;
+}
+
+.about__services p {
+    color: #A4ACC4;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    line-height: 30px;
+}
+
+.about__message {
+    width: 100%;
+    height: 200px;
+    margin: 0px 0px 140px 0px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.message__1 {
+    width: 49%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #2e344e;
+    background: #191D2B;
+    box-shadow: -7px 0px 0px 0px #2e344e;
+}
+.message__1 p{
+    color: #A4ACC4;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .about__data {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .data__type {
+        width: 100%;
+        border: 1px solid rgb(69, 21, 213);
+    }
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .about {
+        padding: 55px 10px;
+    }
+
+    .original {
+        font-size: 48px;
+    }
+
+    .shadov {
+        font-size: 66px;
+    }
+
+    .about__services {
+        width: 100%;
+
+    }
+    .about__message {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .message__1{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .about {
+        padding: 55px 10px;
+    }
+
+    .original {
+        font-size: 40px;
+    }
+
+    .shadov {
+        font-size: 55px;
+    }
+}

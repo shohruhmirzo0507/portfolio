@@ -1,0 +1,209 @@
+.portfolies {
+    background: #10121A;
+    width: 100%;
+    height: 120vh;
+    padding: 86px;
+}
+
+.title__portfolioes {
+    width: 100%;
+    height: 86px;
+    position: relative;
+    margin: 0px 0px 86px 0px;
+}
+
+.original__portfolioes {
+    position: absolute;
+    z-index: 3;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 0.7rem;
+    color: #FFF;
+
+}
+
+.shadov__portfolioes {
+    position: absolute;
+    z-index: 1;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    padding-bottom: 0.7rem;
+    color: #151824;
+    margin: 30px 0px 0px 5px;
+}
+
+.original__portfolioes::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #007bff;
+    bottom: 0;
+    left: 0;
+}
+
+.portfolios__btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.button__port {
+    width: 95px;
+    height: 41px;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    background: #037FFF4D;
+    border: none;
+    color: #fff;
+}
+
+.button__port1 {
+    width: 107px;
+    height: 41px;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    background: #037FFF4D;
+    border: none;
+    color: #fff;
+}
+
+.button__port2 {
+    width: 155px;
+    height: 41px;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    background: #037FFF4D;
+    border: none;
+    color: #fff;
+}
+
+.button__port3 {
+    width: 143px;
+    height: 41px;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    background: #037FFF4D;
+    border: none;
+    color: #fff;
+}
+
+.button__port:hover {
+    background: #007bff;
+    transition: 0.4s ease;
+
+}
+
+.button__port1:hover {
+    background: #007bff;
+    transition: 0.4s ease;
+
+}
+
+.button__port2:hover {
+    background: #007bff;
+    transition: 0.4s ease;
+
+}
+
+.button__port3:hover {
+    background: #007bff;
+    transition: 0.4s ease;
+
+}
+
+.portfolios__box{
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.portfolios__cart{
+    width: 100%;
+    height: 341px;
+    line-height: 25px;
+}
+.web__img{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+.web__img img{
+    width: 100%;
+    height: 100%;
+}
+.portfolios__cart h1{
+    font-size: 26px;
+    color: #fff;
+    margin: 10px 0px 10px 0px;
+}
+.portfolios__cart p{
+    font-size: 19px;
+    color: #A4ACC4;
+}
+
+.web__img {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img__caption {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: rgba(255, 255, 255, 0.927);
+    color: white;
+    width: 97%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+    opacity: 0; /* Boshlang'ichda ko'rinmaslik */
+    transition: opacity 0.3s ease;
+  }
+  
+  .web__img:hover .img__caption {
+    opacity: 1; 
+  }
+  .img__caption h1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #151824;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+.img__caption h1 svg{
+    background: none;
+    color: none;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
