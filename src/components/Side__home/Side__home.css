@@ -104,7 +104,18 @@
 }
 
 
-
+@media screen and (max-width: 500px) {
+    .title__home{
+        color: #fff;
+        font-size: 55px;
+        font-family: "Nunito", sans-serif;
+    }
+}
+@media screen and (max-width: 400px) {
+    .title__home{
+        font-size: 45px;
+    }
+}
 
 
 

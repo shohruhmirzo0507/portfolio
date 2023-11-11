@@ -185,6 +185,11 @@
         width: 100%;
     }
 }
+@media screen and (max-width:580px) {
+    .contact {
+        padding:40px 6px;
+    }
+}
 
 
 

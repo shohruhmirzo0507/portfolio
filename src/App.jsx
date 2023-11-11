@@ -11,7 +11,7 @@ import Side__home from './components/Side__home/Side__home'
 function App() {
 
   return (
-    <>
+    <div>
         <BrowserRouter>
           <Home>
             <Routes>
@@ -24,8 +24,7 @@ function App() {
             </Routes>
           </Home>
         </BrowserRouter>
-
-    </>
+    </div>
   )
 }
 

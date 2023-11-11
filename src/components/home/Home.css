@@ -84,7 +84,7 @@ main{
     color: #057FFF;
     outline: none;
     border: none;
-    display: none;
+    z-index: 5;
 }
 .close svg{
     font-size: 37px;
@@ -92,51 +92,29 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1200px){
     .side-menu {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        transition: 900ms;
+    position: absolute;
+    z-index: 10;
       }
       
-      .side-menu .active {
-        left: 0;
-       
-      }
       .close{
         display: block;
       }
 }
 
-
+@media screen and (max-width: 500px){
+    .close{
+        position: absolute;
+        top: 150px;
+        right: 10px;
+        background: none;
+        color: #057FFF;
+        outline: none;
+        border: none;
+        z-index: 11;
+    }
+}
 
 
 

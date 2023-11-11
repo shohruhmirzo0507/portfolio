@@ -1,7 +1,10 @@
+@font-face{
+    font-family: "Nunito";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins&family=Shalimar&display=swap');
+}
 .portfolies {
     background: #10121A;
     width: 100%;
-    height: 120vh;
     padding: 86px;
 }
 
@@ -191,9 +194,63 @@
 }
 
 
+@media screen and (max-width: 1400px) {
 
+    .web__img{
+        height: 60%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .portfolios__box{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
 
-
+}
+@media screen and (max-width: 800px) {
+    .portfolies {
+        padding: 40px 10px;
+    }
+    .portfolios__box{
+      gap: 20px;
+    }
+    .portfolios__cart{
+        width: 100%;
+        height: 280px;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .portfolios__cart{
+        width: 100%;
+        height: 250px;
+    }
+    .portfolios__cart h1{
+        font-size: 22px;
+        color: #fff;
+        margin: 10px 0px 10px 0px;
+    }
+    .portfolios__cart p{
+        font-size: 17px;
+        color: #A4ACC4;
+    }
+    .web__img{
+        height: 60%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .portfolios__box{
+        grid-template-columns: 1fr;
+        
+    }
+    .web__img{
+        height: 70%;
+    }
+    .portfolios__cart{
+        width: 100%;
+        height: 300px;
+    }
+}
 
 
 

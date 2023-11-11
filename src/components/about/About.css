@@ -200,7 +200,6 @@
 
     .data__type {
         width: 100%;
-        border: 1px solid rgb(69, 21, 213);
     }
 
 }
@@ -235,12 +234,13 @@
     .message__1{
         width: 80%;
     }
+   
 
 }
 
 @media screen and (max-width:380px) {
     .about {
-        padding: 55px 10px;
+        padding: 40px 10px;
     }
 
     .original {
