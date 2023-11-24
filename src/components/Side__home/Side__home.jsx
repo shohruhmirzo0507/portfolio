@@ -9,6 +9,8 @@ function Side__home() {
     return (
         <div>
             <div className="side__home">
+                <div className="star"></div>
+                <div className="star1"></div>
                 <div className="text__home">
                     <h1 className='title__home'>Hi, I'm  <span>Shohruhmirzo No'monjonov</span> </h1>
                     <p>Welcome to my personal portfolio , I'm a frontend developer. I can build JavaScript , React Js and Next Js web applications from the ground up. I plan to develop skills of Angular and Vue in the near future. Build appealing websites throuhg CSS frameworks such as SCSS, BootStrap and Styled Components. During my studies , i have worked on several projects that you can on my github account</p>
@@ -25,3 +27,9 @@ function Side__home() {
 }
 
 export default Side__home
+
+
+
+
+
+

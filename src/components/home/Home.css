@@ -84,13 +84,14 @@ main{
 }
 .close{
     position: absolute;
-    top: 60px;
-    right: 60px;
+    top: 7%;
+    right: 5%;
     background: none;
     color: #057FFF;
     outline: none;
     border: none;
-    z-index: 5;
+    z-index: 20;
+    display: none;
 }
 .close svg{
     font-size: 37px;
@@ -107,20 +108,11 @@ main{
       .close{
         display: block;
       }
+  
+      
 }
 
-@media screen and (max-width: 500px){
-    .close{
-        position: absolute;
-        top: 150px;
-        right: 10px;
-        background: none;
-        color: #057FFF;
-        outline: none;
-        border: none;
-        z-index: 11;
-    }
-}
+
 
 
 

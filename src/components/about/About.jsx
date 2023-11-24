@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import InsightsIcon from '@mui/icons-material/Insights';
-import img from '../../assets/img.jpg'
+import img from '../../assets/my1.jpg'
 
 function About() {
 

@@ -9,7 +9,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
+.star{
+    background: url("../../assets/star.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOne 30s infinite linear;
+    z-index: 1;
+}
+.star1{
+    background: url("../../assets/star.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateTwo 30s infinite linear;
+    z-index: 1;
+}
+
 .text__home{
     display: flex;
     align-items: center;
@@ -18,6 +43,7 @@
     text-align: center;
     width: 80%;
     color: #fff;
+    position: relative;
 }
 .title__home{
     color: #fff;
@@ -40,6 +66,9 @@
   list-style: none;
   gap: 20px;
   margin: 15px 0px 0px 0px;
+  position: absolute;
+  z-index: 4;
+  top: 100%;
 
 }
 .icon__list{
@@ -104,6 +133,7 @@
 }
 
 
+
 @media screen and (max-width: 500px) {
     .title__home{
         color: #fff;
@@ -117,6 +147,16 @@
     }
 }
 
+@keyframes animateOne {
+    0%   {background-position: 0px 0px;}
+    100%   {background-position: 100px 850px;}
+    
+  }
+@keyframes animateTwo {
+    0%   {background-position: 0px -100px;}
+    100%   {background-position: 0px 850px;}
+    
+  }
 
 
 
